@@ -1,0 +1,20 @@
+{
+    "name": "shtrihstr/wp-compatible-header",
+    "description": "Adds X-UA-Compatible HTTP header",
+    "type": "wordpress-muplugin",
+    "keywords": ["wordpress", "plugins", "compatible", "ie"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Oleksandr Strikha",
+            "email": "alex@strikha.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "extra": {
+        "installer-name": "index"
+    }
+}
